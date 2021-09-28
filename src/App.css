@@ -1,12 +1,54 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: #282c34;
+  color:white ;
+  margin: 0;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .navv{
+  color:white ;
+  padding-left: 70px;
+  text-decoration: none;
+}
+ 
+.navbar .navv:hover{
+  /* text-shadow: 2px 3px 3px  #cccbcb; */
+  color: #b3b5b6;
 }
 
+.navbar .navvv{
+  color:white ;
+  padding-left: 20px;
+  text-decoration: none;
+}
+ 
+.navbar .navvv:hover{
+  
+}
+.navbar .logo{
+  font-weight: 700;
+  font-size: larger;
+}
+
+.navbar .icon{
+  margin-top: 10px;
+}
+
+.navbar .setting{
+ margin-right: 100px;
+  
+}
+.navbar .btn{
+  font-size: larger;
+  padding: 0px 20px;
+  color: white;
+  border: 1px solid white;
+}
+.carosal{
+  height: 300px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,7 +69,37 @@
 .App-link {
   color: #61dafb;
 }
-
+.lastc{
+  margin: 150px;
+}
+.lastc .lasthead{
+  color: rgb(44, 129, 207);
+}
+.lastc .lastcard{
+  display: flex;
+  flex-wrap: wrap;
+}
+.lastc .lastMore{
+ direction: rtl;
+ margin-right: 200px;
+ margin-top: 20px;
+}
+.contact{
+  width: 50%;
+  text-align:left;
+  margin-left: 200px;
+}
+.contact .sendbtn{
+  text-align: right;
+  margin-bottom: 30px;
+}
+.footer{
+  background-color: #282c34;
+  color:white ;
+  margin: 0;
+  padding: 20px 50px;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
